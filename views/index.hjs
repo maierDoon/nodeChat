@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='css/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+    
+    <hr/>
+    <form id="login">
+        <p id="error"></p>
+        <input type="text" id="name"/>
+        <button>login</button>
+    </form>
+    
+    <div id="messagesContainer">
+        <h5>Logged in as: <span id="username"></span></h5>
+        <div id="messages"></div>
+        <div><ul id="chatters"></ul></div>
+        <div id="typers"></div>
+        <form id="messageForm">
+            <input type="text" id="message"/>
+            <button>send</button>
+        </form>
+        <div id="messageError"></div>
+    </div>
+    <script src="/scripts/jquery-2.1.4.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>

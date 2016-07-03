@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#messagesContainer {
+    display: none;
+}
+
+#messages {
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    float: left;
+    width: 50%;
+}
+
+#message {
+    width: 50%;
+}
+
+#chatters {
+    list-style: none;
+}
+
+#error, #messageError {
+    color: red;
+}
+
+#typers {
+    clear: both;
+    font-style: italic;
+    color: gray;
+    height: 1em;
+    margin-bottom: 4px;
+}
+
+.info {
+    color: blue;
+}
+
+.private {
+    font-style: italic;
+    font-weight: bold;
+}
